@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College admission</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Dhaka college</h1>
+        <img src="images/college.avif" alt="College images"width="100%" height="250">
+    </header>
+    <nav>
+        <a href="#">Home</a>&nbsp;
+        <a href="#">About</a>&nbsp;
+        <a href="#">Courses</a>&nbsp;
+        <a href="#">Contact</a>&nbsp;
+    </nav>
+<form action="">
+    <section id="Registration">
+        <p>Name :
+            <input type="text" name="Name" id="Name" placeholder="Enter your Name" required>
+        </p>
+        <p>Student Id :
+            <input type="number" name="Id" id="id" placeholder="Enter your ID" required>
+        </p>
+         <p>Father's Name :
+            <input type="text" name="Father_name" id="Father_name" placeholder="Enter your Father_name" required>
+        </p>
+        <p>Mother NID Number :
+            <input type="text" name="NID number" id="NID number" placeholder="Enter Id Number" required>
+        </p>
+        </p>  
+        <P>Department 
+            <select name="dept" id="dept"required>
+                <option value="">Enter your Deoartment</option>
+                <option value="Cse">Cse</option>
+                <option value="EEE">EEE</option>
+                <option value="Law">Law</option>
+                <option value="Business studies">Business studies</option>
+            </select>
+        </P>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+                male <input type="radio" name="Gender" id="male">
+                Female <input type="radio" name="Gender" id="Female">
+                Other <input type="radio" name="Gender" id="Other">
+            </fieldset>
+        </p>
+    <p>Skill :
+             <input type="checkbox" name="Skill" id="Python">Python
+             <input type="checkbox" name="Skill" id="HTML">HTML
+             <input type="checkbox" name="Skill" id="CSS">C
+             <input type="checkbox" name="Skill" id="JAVA">JAVA
+             <input type="checkbox" name="Skill" id="C++">C++
+    </p>  
+    </section>
+<section id="Address">
+   <p>Address :
+        <textarea name="Address" id="Address" cols="100" rows="5" > 
+   </textarea>
+    </p>
+</section>
+</form>
+
+<h3>Available Cources</h3>
+<table border="2">
+    <tablehead>
+        <tr>
+        <th>HTML</th>
+        <th>Java</th>
+        <th>Css</th>
+        <th>C++</th>
+        <th>Python</th>
+        </tr>
+        <tr>
+            <td>available</td>
+            <td>available</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>available</td>
+        </tr>
+    </tablehead>
+
+
+
+
+
+
+</table>
+<br>
+<input type="submit" value="submit Now">&nbsp;
+<input type="reset" value="reset">
+<footer>
+   <p>>>>>>&copy; Dhaka college<<<<< </p>
+</footer>
+</body>
+</html>
